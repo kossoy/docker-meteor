@@ -17,7 +17,7 @@ Running your Meteor docker image
 Start your image binding the external ports 3000 (meteor-dev), 445 (samba) and 22 (ssh) in all interfaces to your
 container:
 
-	docker run --name <container name> -d -p 3000:3000 -p 2222:22 -p 445:445 -p kossoy/lamps
+	docker run --name <container name> -d -p 3000:3000 -p 2222:22 -p 445:445 kossoy/meteor
 
 
 Connecting to the ssh server
